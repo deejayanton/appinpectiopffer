@@ -1,0 +1,123 @@
+[
+  {
+    "icon": "Analytics.png",
+    "title": "Analytics Coverage",
+    "description": "The use of analytic tools enables you to directly recognize crashes and problems as well as to analyze how users navigate through your app and which are the most used features. We analyze if your app uses any analytics, if it uses it in the right way and if the accounts are up and running.",
+    "bulletpoints": [
+      "Check for crash/bug reporting tool like Crashlytics/ShakeBugs/ACRA",
+      "Check for usage analytics like Flurry",
+      "Version checking of the used libraries",
+      "Checking if the used accounts are live and used"
+    ]
+  },
+  {
+    "icon": "BLE Analysis.png",
+    "title": "BLE Analysis",
+    "description": "The implementation of BLE, especially on Android, is hard to get right. The Android fragmentation causes a lot of difficulties. We analyze the implementation of BLE connection based advertisement reading, background scanning, known issues with different manufacturers.",
+    "bulletpoints": [
+      "BLE version checking",
+      "BLE connection state machine",
+      "Background scanning",
+      "Data transfers",
+      "Fragmentation problems",
+      "Check if using BLE library like BLESS would solve the problems"
+    ]
+  },
+  {
+    "icon": "Code Analysis.png",
+    "title": "Code Analysis",
+    "description": "We perform AI enhanced statistical code analysis as well as we inspect the code quality thoroughly and hereby identify blockers, critical and severe bugs as well as the quality of the coding style and last but not least the architecture of the app.",
+    "bulletpoints": [
+      "Automated code analysis and manual inspection of discovered problems",
+      "Architecture analysis (is there a documented architecture and is it followed through and through)",
+      "Code style and readability",
+      "Code quality and performance (deep manual code review by a senior developer)"
+    ]
+  },
+  {
+    "icon": "Lisense Check.png",
+    "title": "License Check + GDPR Check",
+    "description": "The usage of wrong licenses can cause a huge damage to an app project but is still an often seen situation as programmers tend to grab libraries that help them solve a task without checking its license. Violation of GDPR can lead to high fees and removal from the App store. Our legal department takes care of the following:",
+    "bulletpoints": [
+      "Are viral licenses used",
+      "Are license requirements satisfied",
+      "Are necessary license information provided to the user",
+      "What kind of data is processed and is the GDPR correct"
+    ]
+  },
+  {
+    "icon": "Manual Test.png",
+    "title": "Manual Test",
+    "description": "Our destructive manual tester will torture your app in a way that it will crash to make it stop. As programmers are a constructive type of people, they make bad testers. Our tester identifies problems that your users might step on but are not always found in the code review. This process is a complementary part of code analysis. We perform:",
+    "bulletpoints": [
+      "Developing and executing test cases",
+      "Testing on multiple devices",
+      "Testing of different scenarios",
+      "Review user comments and reproduce bugs users report"
+    ]
+  },
+  {
+    "icon": "Automated Testing.png",
+    "title": "Automated Testing aka Code Coverage",
+    "description": "Automated tests are run after every build to ensure that changes to code and app do not cause errors. Often solving one bug can introduce another especially when changing functionality used in many areas of the app. We inspect:",
+    "bulletpoints": [
+      "Are Unit tests existing and how is the code coverage",
+      "Are UI tests existing and how much of the app is tested",
+      "Which framework is used for the UI tests",
+      "How is the quality of the tests"
+    ]
+  },
+  {
+    "icon": "Documentation.png",
+    "title": "Documentation",
+    "description": "The documentation of the app project should leave no questions unanswered. It should be possible to hand over the project to another team which will get all necessary information to continue work. The architecture needs to be documented, the build process and variants, the code should be documented, there should be a document describing the app and its functionalities.",
+    "bulletpoints": [
+      "Is the code documented according to JavaDoc, KDoc, or Swift-DocC rules",
+      "Does the formal architecture document exist",
+      "Is there a readme file that documents the build process, dependencies, and deployment",
+      "Is there a document describing the app’s functionalities and features"
+    ]
+  },
+  {
+    "icon": "Build Tools.png",
+    "title": "Build tools",
+    "description": "A well-set-up app project should be built and tested with a single click. A well-set-up project should automatically build and test all components at every code merge. If building and testing of the app is manual labor taking time and effort, it needs to be optimized. Therefore we check:",
+    "bulletpoints": [
+      "CI/CD pipeline configuration",
+      "Automatic testing",
+      "Automatic versioning"
+    ]
+  },
+  {
+    "icon": "Security.png",
+    "title": "Security Analysis",
+    "description": "Usage of outrun and no more safe crypto algorithms, the usage of unsafe protocols or saving passwords as clear text in the database or the source code are only a few reasons an application’s security can be violated and sensitive user data stolen. Therefore we check:",
+    "bulletpoints": [
+      "Used algorithms",
+      "Protocol safety",
+      "Right use of cryptography",
+      "Storage of sensitive data"
+    ]
+  },
+  {
+    "icon": "Uxanalysis.png",
+    "title": "UX / Usability Analysis",
+    "description": "Great UX can make great apps but bad UX will definitely end up with a bad app and unhappy customers. Our UX expert will inspect the flow of all UI components for usability and accessibility.",
+    "bulletpoints": [
+      "Accessibility",
+      "Modern paradigms",
+      "Usability"
+    ]
+  },
+  {
+    "icon": "Pop 8.png",
+    "title": "Process Evaluation",
+    "description": "A great development process will help avoid bugs. Missing code reviews, non-existent git flow, bad traceability, and unclear processes will result in low quality and unstable apps. We analyze not only the development process itself but also the used git flow, and team metrics to reveal optimization potentials.",
+    "bulletpoints": [
+      "Traceability: Why a change was done, by whom and who ordered it",
+      "Git flow: Branching, commit messages, code reviews",
+      "Team metrics: Burn rate, output of each team member",
+      "Tools: are the right tools for the job used"
+    ]
+  }
+]

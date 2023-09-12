@@ -1,0 +1,98 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 2cm;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 10px; /* Adjust the value to control the amount of rounding */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative; /* Added for positioning */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.card .card-image {
+    margin-right: 20px;
+    padding-left: 10px;
+    flex: 1;
+}
+
+.card .card-image img {
+    max-width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.card .card-body {
+    flex: 4;
+}
+
+.card:hover {
+    background-color: #7d9bf5;
+    transform: scale(1.05);
+}
+
+.selected {
+    background-color: #7d9bf5;
+    color: #fff;
+}
+
+.card h4 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.icon {
+    width: 20%;
+}
+
+.icon img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.info {
+    padding-left: 10px;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.info ul {
+    margin-bottom: 0;
+}
+
+/* Add the blue line styles */
+.blue-line {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+}
+
+.blue-line::before {
+    content: "";
+    width: 4px;
+    background-color: #1828FF;
+    position: absolute;
+    top: -3px; /* Adjust this value for top spacing */
+    bottom: -3px; /* Adjust this value for bottom spacing */
+    left: 0;
+    border-radius: 2px; /* Adjust this value for the desired roundness */
+}
